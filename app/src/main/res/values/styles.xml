@@ -9,12 +9,9 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/primaryColor</item>
         <item name="colorPrimaryDark">@color/primaryColorDark</item>
-        <item name="android:radius">5dp</item>
     </style>
 
     <style name="MyCustomToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
         <item name="android:textColorPrimary">#ffffff</item>
-        <item name="android:textSize">15dp</item>
-        <item name="android:textStyle">bold</item>
     </style>
 </resources>
