@@ -16,7 +16,8 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         toolbar = (Toolbar) findViewById(R.id.actionBar1);
         setSupportActionBar(toolbar);
-
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+        toolbar.setLogo(R.mipmap.logo);
     }
 
     @Override
